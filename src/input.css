@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+* {
+    box-sizing: border-box;
+}
+
+#head{
+    z-index: 999;
+}
+
+
+html,
+body {
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    font-size: 12px;
+}
+
+.I {
+    line-height: 20px;
+}
+
+.I h2 {
+    opacity: 0;
+}
+
+.dropdown {
+    height: 10px;
+    overflow: hidden;
+}
+
+.midtoo {
+    opacity: 0;
+}
+
+@keyframes movee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.move {
+    animation: movee 14s linear infinite;
+}
+
+.moving {
+    mask-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 1) 20%,
+        rgba(0, 0, 0, 1) 80%,
+        rgba(0, 0, 0, 0) 100%
+    );
+    -webkit-mask-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 1) 20%,
+        rgba(0, 0, 0, 1) 80%,
+        rgba(0, 0, 0, 0) 100%
+    );
+}
+
+.he{
+    font-size: 18px;
+    width: 100%;
+    padding: 10px;
+}
+
+.pageleft h1{
+    font-size: 15px;
+}
+.pageleft p{
+    font-size: 13px;
+}
+
+.Image{
+    opacity: 0;
+    scale: 0;
+}
+
+
+/* #grid {
+    position: absolute;
+    right: 165px;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 90px 90px 90px 90px 90px;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: small;
+} */
