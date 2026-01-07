@@ -38,10 +38,6 @@ _Add screenshots of your project UI below._
 ![Animations](./screenshots/upper.png)
 ![Animations](./screenshots/effects.png)
 
-
-> 📌 **Note:**  
-> Create a folder named **`screenshots`** in the project root and place your images there.
-
 ---
 
 ## 📂 Project Structure
